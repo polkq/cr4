@@ -1,0 +1,27 @@
+.currency-input {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  font-size: 1.1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-family: inherit;
+}
+
+.currency-input:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.currency-input.readonly {
+  background-color: #f5f5f5;
+  cursor: default;
+  color: #000000;
+  font-weight: 600;
+}
+
+.currency-input::placeholder {
+  color: #999;
+}
+
